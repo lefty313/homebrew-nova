@@ -39,7 +39,7 @@ class NovaAi < Formula
   # tarball + sha256. The cloned repo content isn't actually used by
   # `def install` (the gem-install bypasses it).
   head "https://github.com/lefty313/homebrew-nova.git", branch: "main"
-  version "0.1.11"
+  version "0.1.12"
   license "Nonstandard" # nova-ai is proprietary; LICENSE is in the gem
 
   depends_on "ruby@3.4"
